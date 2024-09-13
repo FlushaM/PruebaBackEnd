@@ -1,0 +1,12 @@
+#imagenes{
+    height: 500px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+#center-img{
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
