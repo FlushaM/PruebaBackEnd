@@ -16,11 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from peliculas.views import renderIndex, renderPeliculas
-
+from peliculas.views import renderIndex, renderTiburon,renderScaryMovie, renderJango 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', renderIndex),
-    path('peliculas/', renderPeliculas)
+    path('tiburon/', renderTiburon),
+    path('scarymovie/', renderScaryMovie),
+    path('jango/', renderJango),
     
 ]
